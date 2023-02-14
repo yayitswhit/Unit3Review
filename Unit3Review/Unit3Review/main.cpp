@@ -58,6 +58,7 @@ int main() {
     
     cout << setw(35) << left << "Amount Donated: " << right << amtDonated << endl;
     
+    double dummyVar;
     double netSale = grossAmount - amtDonated;
     cout << setw(35) << left << "Net Sale: " << right << netSale << endl;
     return 0;
